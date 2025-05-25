@@ -1,2 +1,121 @@
 # yourbirthday
 beep, beep! here's your delivery! ❤️
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>✨ Cipa 22nd Year Thriving on Earth!❤️✨ </title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica', bold;
+      background: linear-gradient(to bottom right, #ffeef2, #e7faff);
+      color: #4a022d;
+      text-align: center;
+    }
+    header {
+      padding: 2rem;
+      background-color: #4a022d;
+      border-bottom: 7px dotted #fcd7e8;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #ff6f91;
+    }
+    .message {
+      padding: 2rem;
+      background-color: #fff9f4;
+      max-width: 700px;
+      margin: auto;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .gallery img {
+      max-width: 300px;
+      border-radius: 1rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    iframe.music {
+      width: 0;
+      height: 0;
+      border: none;
+      display: none;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      .gallery img {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Embedded YouTube music autoplay -->
+  <iframe class="music"
+    src="https://www.youtube.com/embed/m6pTbEz4w3o?autoplay=1&mute=1&start=15"
+    allow="autoplay">
+  <iframe
+  width="0"
+  height="0"
+  src="https://www.youtube.com/embed/m6pTbEz4w3o?autoplay=1&start=15"
+  frameborder="0"
+  allow="autoplay"
+></iframe>
+
+  <header>
+    <h1> ✨ Cipa 22nd Year Thriving on Earth! ✨ </h1>
+  </header>
+
+  <section class="message">
+    <h2>Dear Cipa ❤️ </h2>
+    <p>
+      ✨ Happy 22nd birthday, anak ayam!🐣✨❤️  Another year of thriving, laughing,
+      singing, and eating too much dimsum mentai!! plz. 🤦‍♀️ Neeways, you're not
+      just growing older, you're growing cuter. It's a proven fact! o(*￣▽￣*)ブ ❤️✨
+    </p>
+    <p>
+      I’m so grateful to have you in my life. (┬┬﹏┬┬)✨ You’ve been my safe place, my
+      therapist, my gossip seleb indo updater, and my certified mood booster all in one. o((>ω< ))o ✨
+      Aku seneng banget bisa temenan sama kamu. Seneng juga bisa kenal baik sama kamu!!
+      I think you're my sole friend who really knows me well, you even know things I never told my parents,
+      or my other friends. Cuma kamu juga yang bisa maklumin tempramenku yang jelek, even kebiasaan
+      pelupaku yang nggak banget. TT Makasih ya udah banyak nolong aku, aku bersyukur banget kamu hidup. ❤️
+    </p>
+    <p>
+      Kalau misal aku pergi ke negara yang jauh (ekhem Italy misalnya), dan duitku banyak mampus,
+      kamu orang pertama yang bakal aku ajak keliling negaranya! 😁
+      Here's to our friendship, and more random trips by train for years to come. ㄟ(≧◇≦)ㄏ May this
+      year bring you closer to your dreams and further from any silly men who
+      don’t get your sparkle. I love you so much eventho I rarely said it. ヾ(•ω•`)o ✨
+    </p>
+    <p>
+      P.s. maaf ya kalau site-nya jelek, aku lupa cara bikin sites yang lucu krn udah lama bgt. 😭
+    </p>
+    <p>
+      Love you lots!<br />
+      <strong>– Your Best Friend, L. ❤️</strong>
+    </p>
+  </section>
+
+<audio controls autoplay>
+  <source src="music/Make It with You.ogg" type="audio/ogg">
+  <source src="music/Make It with You.mp3" type="audio/mpeg">
+</audio>
+
+  <section class="gallery">
+    <img src="images/DSCF0131.JPG" alt="Photo 1" />
+    <img src="images/DSCF0253.JPG" alt="Photo 2" />
+    <img src="images/DSCF0035.JPG" alt="Photo 3" />
+  </section>
+</body>
+</html>
